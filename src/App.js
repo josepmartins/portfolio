@@ -11,7 +11,7 @@ const Wrapper = styled.div`
 const Text = styled.div`
   margin-bottom: 5vh;
   font-size: 5vw;
-  line-heiht: 4vw;
+  line-height: 6vw;
 `
 
 class App extends Component {
@@ -32,27 +32,31 @@ class App extends Component {
           </Text>
 
           <Text>
-            Trabajo como diseñador de producto en Typeform, mejorando la experiencia de creación de formularios y dando soporte al desarrollo de nuestro sistema de diseño.
+            Trabajo como diseñador de producto en <a target='_blank' href='http://www.typeform.com'>Typeform</a>, mejorando la experiencia de creación de formularios y dando soporte al desarrollo de nuestro sistema de diseño.
           </Text>
 
           <Text>
-            Antes de eso, trabaje como diseñador en 8fit en la fría Berlin durante un año, donde aprendí como el desarrollo de producto móvil es muy distinto al web.
+            Antes de eso, trabajé como diseñador en <a target='_blank' href='http://www.8fit.com'>8fit</a>, en la fría Berlin, durante un año, donde aprendí cómo de diferente es el desarrollo de producto movil respecto al de web.
           </Text>
 
           <Text>
-            Mi primer trabajo fue en itnig, como desarrollador frontend en una aceleradora de startups donde trabaje en muchos proyectos con necesidades totalmente diferentes.
+            Mi primer trabajo fue en <a target='_blank' href='http://www.itnig.net'>itnig</a>, como desarrollador frontend en una aceleradora de startups donde trabajé en proyectos con necesidades totalmente diferentesde negocio y producto.
           </Text>
 
           <Text>
-            Uno de esos proyectos fue Playfulbet, al que me uni y trabaje durante dos años como frontend y diseñador. Mejoramos toda la estructura, unificamos patrones y mejoramos toda la interacción mientras añadíamos nuevas funcionalidades siempre escuchando el feedback de nuestros usuarios. Una de las mejores experiencias sin duda,  formar parte de un proyecto creado des de 0 con 4 personas hasta crear un producto de éxito.
+            Uno de esos proyectos fue <a target='_blank' href='http://www.playfulbet.com'>Playfulbet</a>, al que me uní y trabaje durante dos años como frontend y diseñador.
           </Text>
 
           <Text>
-            Me dejo de rollos, escribid a mi malí si queréis contactar conmigo.
+            Mejoramos la estructura, unificamos patrones e interacción a la vez que añadíamos nuevas funcionalidades, siempre escuchando el feedback de nuestros usuarios.
           </Text>
 
           <Text>
-            O si mi instagram si queréis cotillear mi fotos callejeras.
+            Una de las mejores experiencias que he vivido, sin duda, formar parte de un proyecto de éxito creado des de 0 con 4 personas y mucha ilusión.
+          </Text>
+
+          <Text>
+            Si queréis hablar o tomar un café, podéis escribirme <a target='_blank' href='mailto:jsp.mrtns@gmail.com'>aquí</a> o cotillear mis fotos en <a target='_blank' href='http://www.instagram.com/josepmartins'>Instagram</a>.
           </Text>
 
           <Text>
