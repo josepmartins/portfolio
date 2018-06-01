@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://josepmartins.github.io/portfolio",
+  "homepage": "https://josepmartins.com/",
   "dependencies": {
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
