@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import styled from 'styled-components'
 
 const BaseStyles = styled.div`
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 `
 
 const Wrapper = styled.div`
