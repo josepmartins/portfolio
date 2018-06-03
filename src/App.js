@@ -24,39 +24,39 @@ class App extends Component {
           </Text>
 
           <Text>
-            Mi nombre es Josep, soy diseñador de producto y actualmente resido en Barcelona.
+            I'm Josep Martins, a digital product designer currently living in the sunny Barcelona.
           </Text>
 
           <Text>
-            Nunca me ha gustado especializarme en nada y por eso me encanta aprender cosas nuevas y adquirir otras habilidades de manera autodidacta.
+            I've never liked specializing in anything in particular and that's why I love learning and acquiring different skills in a self-taught way.
           </Text>
 
           <Text>
-            Trabajo como diseñador de producto en <a target='_blank' href='http://www.typeform.com'>Typeform</a>, mejorando la experiencia de creación de formularios y dando soporte al desarrollo de nuestro sistema de diseño.
+            I work as a product designer at <a target='_blank' href='http://www.typeform.com'>Typeform</a>, improving the form creation experience and giving support to our design system continuous development.
           </Text>
 
           <Text>
-            Antes de eso, trabajé como diseñador en <a target='_blank' href='http://www.8fit.com'>8fit</a>, en la fría Berlin, durante un año, donde aprendí cómo de diferente es el desarrollo de producto movil respecto al de web.
+            Before that, I worked in the cold Berlin as a designer at <a target='_blank' href='http://www.8fit.com'>8fit</a>, where I learned how different mobile products compared to the web could be.
           </Text>
 
           <Text>
-            Mi primer trabajo fue en <a target='_blank' href='http://www.itnig.net'>itnig</a>, como desarrollador frontend en una aceleradora de startups donde trabajé en proyectos con necesidades totalmente diferentesde negocio y producto.
+            My first job was at <a target='_blank' href='http://www.itnig.net'>itnig</a>, as a frontend developer in a startup accelerator where I worked on projects with totally different business and product needs.
           </Text>
 
           <Text>
-            Uno de esos proyectos fue <a target='_blank' href='http://www.playfulbet.com'>Playfulbet</a>, al que me uní y trabaje durante dos años como frontend y diseñador.
+            One of those projects was <a target='_blank' href='http://www.playfulbet.com'>Playfulbet</a>, where I joined and worked for two years as frontend and designer.
           </Text>
 
           <Text>
-            Mejoramos la estructura, unificamos patrones e interacción a la vez que añadíamos nuevas funcionalidades, siempre escuchando el feedback de nuestros usuarios.
+            We improved the structure, unified patterns and interaction while adding new functionalities. Always listening to the feedback of our users.
           </Text>
 
           <Text>
-            Una de las mejores experiencias que he vivido, sin duda, formar parte de un proyecto de éxito creado des de 0 con 4 personas y mucha ilusión.
+            So far one of the best experiences I have lived, being part of a successful project created from the scratch with only 4 people and a lot of enthusiasm.
           </Text>
 
           <Text>
-            Si queréis hablar o tomar un café, podéis escribirme <a target='_blank' href='mailto:jsp.mrtns@gmail.com'>aquí</a> o cotillear mis fotos en <a target='_blank' href='http://www.instagram.com/josepmartins'>Instagram</a>.
+            If you would like to talk or to have a a coffee, contact me <a target='_blank' href='mailto:jsp.mrtns@gmail.com'>here</a>. You can also have a look to my pictures on <a target='_blank' href='http://www.instagram.com/josepmartins'>Instagram</a>.
           </Text>
 
           <Text>
