@@ -3,6 +3,8 @@ import styled from 'styled-components'
 
 const BaseStyles = styled.div`
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  margin: 0;
+  padding: 0;
 `
 
 const Wrapper = styled.div`
@@ -21,7 +23,7 @@ class App extends Component {
       <BaseStyles>
         <Wrapper>
           <Text>
-            Hola!
+            Hola! 👋
           </Text>
 
           <Text>
@@ -60,9 +62,6 @@ class App extends Component {
             If you'd like to talk or have a coffee, contact me <a target='_blank' href='mailto:jsp.mrtns@gmail.com'>here</a>. You can also take a look at my pictures on <a target='_blank' href='http://www.instagram.com/josepmartins'>Instagram</a>.
           </Text>
 
-          <Text>
-            <span>✌</span>
-          </Text>
         </Wrapper>
       </BaseStyles>
     )
