@@ -23,7 +23,8 @@ class App extends Component {
       <BaseStyles>
         <Wrapper>
           <Text>
-            Hola! 👋
+            Hola! 
+            <span role="img" aria-label="emoji">👋</span>
           </Text>
 
           <Text>
