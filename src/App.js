@@ -32,15 +32,11 @@ class App extends Component {
           </Text>
 
           <Text>
-            I've never liked specializing in anything in particular and that's why I love learning different skills in a self-taught way.
-          </Text>
-
-          <Text>
             I work as a product designer at <a target='_blank' rel="noopener noreferrer" href='http://www.typeform.com'>Typeform</a>, improving the form creation experience and developing our design system.
           </Text>
 
           <Text>
-            If you'd like to talk or have a coffee, contact me <a target='_blank' rel="noopener noreferrer" href='mailto:jsp.mrtns@gmail.com'>here</a>. You can also take a look at my pictures on <a target='_blank' rel="noopener noreferrer" href='http://www.instagram.com/josepmartins'>Instagram</a>.
+            If you'd like to talk or have a coffee, contact me <a target='_blank' rel="noopener noreferrer" href='mailto:jsp.mrtns@gmail.com'>here</a>.
           </Text>
 
         </Wrapper>
