@@ -1,5 +1,9 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
+import { BrowserRouter, Route, Link } from "react-router-dom"
+import About from '../src/pages/about'
+import Home from '../src/pages/home'
+import Playfulbet from '../src/pages/playfulbet'
 
 const BaseStyles = styled.div`
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
@@ -7,40 +11,26 @@ const BaseStyles = styled.div`
   padding: 0;
 `
 
-const Wrapper = styled.div`
-  margin: 10vh 7vw;
-`
-
-const Text = styled.div`
-  margin-bottom: 5vh;
-  font-size: 5vw;
-  line-height: 6vw;
+const Navigation = styled.div`
 `
 
 class App extends Component {
   render () {
     return (
-      <BaseStyles>
-        <Wrapper>
-          <Text>
-            Hola! 
-            <span role="img" aria-label="emoji">👋</span>
-          </Text>
+      <BrowserRouter basename={process.env.PUBLIC_URL}> 
+        <BaseStyles>
 
-          <Text>
-            I'm Josep Martins, a digital product designer currently living in sunny Barcelona.
-          </Text>
-
-          <Text>
-            I work as a product designer at <a target='_blank' rel="noopener noreferrer" href='http://www.typeform.com'>Typeform</a>, improving the form creation experience and developing our design system.
-          </Text>
-
-          <Text>
-            If you'd like to talk or have a coffee, contact me <a target='_blank' rel="noopener noreferrer" href='mailto:jsp.mrtns@gmail.com'>here</a>.
-          </Text>
-
-        </Wrapper>
-      </BaseStyles>
+          <Navigation>
+            <Link to="/">Home</Link>
+            <Link to="/about">About</Link>
+            <Link to="/playfulbet">Playfulbet</Link>
+          </Navigation>
+          
+          <Route exact path="/" component={Home} />
+          <Route path="/about" component={About} />
+          <Route path="/playfulbet" component={Playfulbet} />
+        </BaseStyles>
+      </BrowserRouter>      
     )
   }
 }
