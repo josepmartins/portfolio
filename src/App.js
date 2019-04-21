@@ -15,16 +15,15 @@ class App extends Component {
   render () {
     return (
       <BrowserRouter basename={process.env.PUBLIC_URL}> 
-        <BaseStyles>
+        <BaseStyles />
 
-          <Navigation>
-            <Link to="/">Home</Link>
-            <Link to="/playfulbet">Playfulbet</Link>
-          </Navigation>
-          
-          <Route exact path="/" component={Home} />
-          <Route path="/playfulbet" component={Playfulbet} />
-        </BaseStyles>
+        <Navigation>
+          <Link to="/">Home</Link>
+          <Link to="/playfulbet">Playfulbet</Link>
+        </Navigation>
+        
+        <Route exact path="/" component={Home} />
+        <Route path="/playfulbet" component={Playfulbet} />
       </BrowserRouter>      
     )
   }

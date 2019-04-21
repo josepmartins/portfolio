@@ -1,11 +1,10 @@
-import styled, { injectGlobal } from 'styled-components'
-
+import styled, { createGlobalStyle } from 'styled-components'
 import UnionRegularWoff from '../assets/fonts/Union-Regular.woff'
 import UnionRegularWoff2 from '../assets/fonts/Union-Regular.woff2'
 import UnionBoldWoff from '../assets/fonts/Union-Bold.woff'
 import UnionBoldWoff2 from '../assets/fonts/Union-Bold.woff2'
 
-injectGlobal`
+const BaseStyles = createGlobalStyle`
 	@font-face {
 		font-family: 'Union';
 		src: url('${UnionRegularWoff2}') format('woff2'),
@@ -20,8 +19,13 @@ injectGlobal`
 	}
 
 	body {
-		margin: 0;
-	  padding: 0;
+    font-family: 'Union', -apple-system, BlinkMacSystemFont, sans-serif;
+    color: black;
+    margin: 0;
+    padding: 0;
+  
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
 
   ::-moz-selection {
@@ -46,15 +50,6 @@ injectGlobal`
 	p {
     margin: 0;
 	}
-`
-const BaseStyles = styled.div`
-	font-family: 'Union', -apple-system, BlinkMacSystemFont, sans-serif;
-	color: black;
-  margin: 0;
-  padding: 0;
-
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
 `
 
 export default BaseStyles

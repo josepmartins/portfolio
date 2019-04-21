@@ -4,16 +4,11 @@
   "private": true,
   "homepage": "https://josepmartins.com/",
   "dependencies": {
-    "extend": "^3.0.2",
-    "lodash": "^4.17.11",
-    "merge": "^1.2.1",
     "react": "^16.4.0",
-    "react-dev-utils": "^7.0.3",
     "react-dom": "^16.8.4",
     "react-router-dom": "^5.0.0",
     "react-scripts": "1.1.4",
-    "url-parse": "^1.4.4",
-    "webpack-dev-server": "^3.2.1"
+    "styled-components": "^4.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -24,7 +19,6 @@
     "deploy": "gh-pages -d build"
   },
   "devDependencies": {
-    "gh-pages": "^2.0.1",
-    "styled-components": "^3.3.0"
+    "gh-pages": "^2.0.1"
   }
 }
