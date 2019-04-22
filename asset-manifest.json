@@ -1,9 +1,21 @@
 {
   "main.css": "static/css/main.65027555.css",
   "main.css.map": "static/css/main.65027555.css.map",
-  "main.js": "static/js/main.36430d1a.js",
-  "main.js.map": "static/js/main.36430d1a.js.map",
+  "main.js": "static/js/main.aa1a89b4.js",
+  "main.js.map": "static/js/main.aa1a89b4.js.map",
   "static/media/Union-Regular.woff": "static/media/Union-Regular.130e9cd6.woff",
   "static/media/Union-Regular.woff2": "static/media/Union-Regular.62c5bdcd.woff2",
-  "static/media/header-2.jpg": "static/media/header-2.d5d2b524.jpg"
+  "static/media/ads.jpg": "static/media/ads.47d71e32.jpg",
+  "static/media/custom-dashboard.jpg": "static/media/custom-dashboard.79841a42.jpg",
+  "static/media/dashboard.jpg": "static/media/dashboard.743bd0c3.jpg",
+  "static/media/filters.jpg": "static/media/filters.a1b72667.jpg",
+  "static/media/gamification.jpg": "static/media/gamification.1198bdfc.jpg",
+  "static/media/header-2.jpg": "static/media/header-2.d5d2b524.jpg",
+  "static/media/levels.jpg": "static/media/levels.f137ce80.jpg",
+  "static/media/mobile.jpg": "static/media/mobile.82d2ccc1.jpg",
+  "static/media/responsive.jpg": "static/media/responsive.ba761550.jpg",
+  "static/media/teams-1.jpg": "static/media/teams-1.1090e9fc.jpg",
+  "static/media/teams-2.jpg": "static/media/teams-2.b57544fc.jpg",
+  "static/media/ui-kit.jpg": "static/media/ui-kit.8cd4248b.jpg",
+  "static/media/video-1.mp4": "static/media/video-1.7e0c30b1.mp4"
 }
