@@ -12,7 +12,7 @@ const BaseStyles = createGlobalStyle`
 
   html {
     font-size: 100%;
-    line-height: 1.37;  
+    line-height: 1.25;  
   }
 
   body {

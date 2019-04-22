@@ -4,7 +4,7 @@ export const minWidth = '720'
 export const midWidth = '1024'
 export const maxWidth = '1440'
 
-const makeTextSize = (minSize, maxSize, minSizeBig, maxSizeBig ) => {
+export const makeTextSize = (minSize, maxSize, minSizeBig, maxSizeBig ) => {
   /* font-size: calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum viewport width]) / ([maximum viewport width] - [minimum viewport width])));*/
   return `
     font-size: ${minSize}px;
@@ -33,7 +33,6 @@ export const textSizesStyles = {
     ${makeTextSize(40,48,40,48)};
   `,
   h1: css`
-    line-height: 1.125;
     text-transform: uppercase;
     ${makeTextSize(56,72,56,72)};
   `,

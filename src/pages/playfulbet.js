@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import Content from '../components/content'
+import CaseHeader from '../components/case-header'
 
 
 const Wrapper = styled.div`
@@ -9,21 +10,6 @@ const Wrapper = styled.div`
   max-width: 1440px;
   margin: 5vh auto;
   padding: 0 3.75vw;
-`
-const Header = styled.div`
-  display: flex;
-  margin-bottom: 15vh;
-`
-
-const HeaderWrapper = styled.div`
-  margin-top: 20vh;  
-  width: 50%;
-`
-const HeaderImage = styled.img`
-  height: 90vh;
-  width: 50%;
-  background-color: #ececec;
-  object-fit: cover;
 `
 
 const ContentWrapper = styled.div`  
@@ -42,16 +28,11 @@ const Screen = styled.div`
 
 const Playfulbet = () => (
   <Wrapper>
-    <Header>
-      <HeaderWrapper>
-        <Content tag='h1' kind='h1'>Playfulbet</Content>
-        <Content kind='p2'>Design & Front End</Content>
-      </HeaderWrapper>
-      <HeaderImage 
-        loading="lazy"
-        src={require('../assets/images/playfulbet/header-2.jpg')}
-      />
-    </Header>
+    <CaseHeader 
+      title='Playfulbet'
+      label='Design & Front End'
+      imgSrc={require('../assets/images/playfulbet/header-2.jpg')}
+    />
     <ContentWrapper>
       <Content>
         Playfulbet is a social gaming platform where users can play into sports events between their friends. The main idea was to not focus on the sport event and the outcome but making the experience more entertaining and fun being able to challenge your friends.

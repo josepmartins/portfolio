@@ -13,8 +13,8 @@ const Content = ({children, kind, tag}) => {
   )
 }
 
-Text.defaultProps = {
-  as: 'p',
+Content.defaultProps = {
+  tag: 'p',
   kind: 'lead'
 }
 
