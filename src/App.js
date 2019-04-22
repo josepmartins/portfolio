@@ -1,9 +1,7 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
-
 import { BrowserRouter, Route, Link } from "react-router-dom"
 import BaseStyles from './components/base-styles'
-
 import Home from '../src/pages/home'
 import Playfulbet from './pages/playfulbet'
 

@@ -18,9 +18,15 @@ const BaseStyles = createGlobalStyle`
 		font-weight: 700;
 	}
 
-	body {
+	html {
+    font-size: 100%;
+    line-height: 1.37;  
+  }
+
+  body {
     font-family: 'Union', -apple-system, BlinkMacSystemFont, sans-serif;
-    color: black;
+    color: #222;
+    font-weight: 400; 
     margin: 0;
     padding: 0;
   
@@ -28,6 +34,11 @@ const BaseStyles = createGlobalStyle`
     -moz-osx-font-smoothing: grayscale;
   }
 
+  h1, h2, h3, p {
+    margin: 0; 
+    font-weight: 400;
+  }
+  
   ::-moz-selection {
   	color: white;
   	background-color: black;
@@ -49,7 +60,11 @@ const BaseStyles = createGlobalStyle`
 
 	p {
     margin: 0;
-	}
+  }
+  
+  a{
+    color: #222;
+  }
 `
 
 export default BaseStyles
