@@ -1,8 +1,6 @@
 import styled, { createGlobalStyle } from 'styled-components'
 import UnionRegularWoff from '../assets/fonts/Union-Regular.woff'
 import UnionRegularWoff2 from '../assets/fonts/Union-Regular.woff2'
-import UnionBoldWoff from '../assets/fonts/Union-Bold.woff'
-import UnionBoldWoff2 from '../assets/fonts/Union-Bold.woff2'
 
 const BaseStyles = createGlobalStyle`
 	@font-face {
@@ -11,14 +9,8 @@ const BaseStyles = createGlobalStyle`
 				 url('${UnionRegularWoff}') format('woff');
 		font-weight: 400;
 	}
-	@font-face {
-		font-family: 'Union';
-		src: url('${UnionBoldWoff2}') format('woff2'),
-				 url('${UnionBoldWoff}') format('woff');
-		font-weight: 700;
-	}
 
-	html {
+  html {
     font-size: 100%;
     line-height: 1.37;  
   }
