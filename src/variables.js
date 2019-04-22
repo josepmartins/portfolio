@@ -18,6 +18,7 @@ export const makeTextSize = (minSize, maxSize, minSizeBig, maxSizeBig ) => {
 
 export const textSizesStyles = {
   p2: css`    
+    margin-bottom: 10vh;
     ${makeTextSize(18,20, 20, 20)};
   `,
   p1: css`
@@ -25,7 +26,7 @@ export const textSizesStyles = {
     ${makeTextSize(18,20, 20, 24)};
   `,
   lead: css`
-    margin-bottom: 10vh;
+    margin-bottom: 7.5vh;
     ${makeTextSize(20,20, 22, 30)};
   `,
   h2: css`

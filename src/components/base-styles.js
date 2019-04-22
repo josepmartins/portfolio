@@ -1,4 +1,4 @@
-import styled, { createGlobalStyle } from 'styled-components'
+import { createGlobalStyle } from 'styled-components'
 import UnionRegularWoff from '../assets/fonts/Union-Regular.woff'
 import UnionRegularWoff2 from '../assets/fonts/Union-Regular.woff2'
 

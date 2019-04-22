@@ -23,6 +23,8 @@ const HeaderContent = styled.div`
 const HeaderImage = styled.img`
   background-color: #ececec;
   object-fit: cover;
+  height: 40vh;
+  width: 100%;
   
   @media (min-width: ${minWidth}px) {    
     height: 90vh;

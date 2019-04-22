@@ -26,7 +26,7 @@ const Home = () => (
     </Content>
 
     <Content>
-      I work as a product designer at <a target='_blank' rel="noopener noreferrer" href='http://www.typeform.com'>Typeform</a>, improving the form creation experience and developing our design system.
+      I work as a product designer at <a target='_blank' rel="noopener noreferrer" href='https://www.typeform.com/'>Typeform</a>, improving the form creation experience and developing our design system.
     </Content>
 
     <Content>
