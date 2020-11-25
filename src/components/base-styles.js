@@ -1,36 +1,37 @@
 import { createGlobalStyle } from 'styled-components'
-import UnionRegularWoff from '../assets/fonts/Union-Regular.woff'
-import UnionRegularWoff2 from '../assets/fonts/Union-Regular.woff2'
+import InterRegularrWoff from '../assets/fonts/Inter-Regular.woff'
+import InterRegularrWoff2 from '../assets/fonts/Inter-Regular.woff2'
 
 const BaseStyles = createGlobalStyle`
-	@font-face {
-		font-family: 'Union';
-		src: url('${UnionRegularWoff2}') format('woff2'),
-				 url('${UnionRegularWoff}') format('woff');
+  @font-face {
+		font-family: 'Inter';
+		src: url('${InterRegularrWoff}') format('woff2'),
+				 url('${InterRegularrWoff2}') format('woff');
 		font-weight: 400;
 	}
 
-  html {
-    font-size: 100%;
-    line-height: 1.25;  
+  html, body {
+    font-size: 18px;
+    line-height: 1.25;
   }
 
   body {
-    font-family: 'Union', -apple-system, BlinkMacSystemFont, sans-serif;
-    color: #222;
-    font-weight: 400; 
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    color: black;
+    font-weight: 400;
+    font-style: normal;
     margin: 0;
     padding: 0;
-  
+
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
 
   h1, h2, h3, p {
-    margin: 0; 
+    margin: 0;
     font-weight: 400;
   }
-  
+
   ::-moz-selection {
   	color: white;
   	background-color: black;
@@ -53,9 +54,17 @@ const BaseStyles = createGlobalStyle`
 	p {
     margin: 0;
   }
-  
+
   a{
-    color: #222;
+    color: inherit;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+      text-decoration-style: wavy;
+      text-decoration-color: blue;
+      text-decoration-thickness: from-font;
+    }
   }
 `
 

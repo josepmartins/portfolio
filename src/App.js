@@ -12,17 +12,17 @@ const Navigation = styled.div`
 class App extends Component {
   render () {
     return (
-      <BrowserRouter basename={process.env.PUBLIC_URL}> 
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <BaseStyles />
 
         <Navigation>
           <Link to="/">Home</Link>
           <Link to="/playfulbet">Playfulbet</Link>
         </Navigation>
-        
+
         <Route exact path="/" component={Home} />
         <Route path="/playfulbet" component={Playfulbet} />
-      </BrowserRouter>      
+      </BrowserRouter>
     )
   }
 }

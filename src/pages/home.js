@@ -1,35 +1,28 @@
 import React from 'react'
 import styled from 'styled-components'
-import { makeTextSize } from '../variables'
 
-const Content = styled.div`
-  ${makeTextSize(40, 50, 56, 72)};
-  line-height: 1.125;
-  margin-bottom: 5vh;
+const Content = styled.h1`
+  font-size: clamp(3rem, 10vw, 5rem);
+  line-height: 5.33333rem;
+  letter-spacing: -0.1111111111111111rem;
 `
 const Wrapper = styled.div`
   width: 100%;
-  max-width: 1440px;
-  margin: 10vh auto;
-  padding: 0 7vw;
+  padding: 5vh 3vw;
 `
 
 const Home = () => (
   <Wrapper>
-    <Content kind='h1'>
-      <small role="img" aria-label="emoji">👋🏼</small>
-    </Content>
-
     <Content>
-      I'm Josep Martins, a digital product designer currently living in sunny Barcelona.
-    </Content>
-
-    <Content>
-      Design systems at <a target='_blank' rel="noopener noreferrer" href='https://newrelic.com/'>New Relic</a>, previously at <a target='_blank' rel="noopener noreferrer" href='https://typeform.com/'>Typeform</a>.
-    </Content>
-
-    <Content>
-      If you'd like to talk or have a coffee, contact me <a target='_blank' rel="noopener noreferrer" href='mailto:jsp.mrtns@gmail.com'>here</a>.
+      <p>
+        ☺ I'm Josep Martins, a digital product designer and <a target='_blank' rel="noopener noreferrer" href='https://www.instagram.com/josepmartins/'>photograhper</a> currently living in ☀ Barcelona.
+      </p>
+      <p>
+        I build design systems at <a target='_blank' rel="noopener noreferrer" href='https://newrelic.com/'>New Relic</a>. Previously at <a target='_blank' rel="noopener noreferrer" href='https://typeform.com/'>Typeform</a> and <a target='_blank' rel="noopener noreferrer" href='https://8fit.com/'>8fit</a>.
+      </p>
+      <p>
+        ✉ <a target='_blank' rel="noopener noreferrer" href='mailto:jsp.mrtns@gmail.com'>Email me</a> if you would like to talk or work together.
+      </p>
     </Content>
   </Wrapper>
 )

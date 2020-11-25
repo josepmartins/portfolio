@@ -9,15 +9,15 @@ export const makeTextSize = (minSize, maxSize, minSizeBig, maxSizeBig ) => {
   return `
     font-size: ${minSize}px;
     font-size: calc(${minSize}px + ${maxSize - minSize} * (100vw - ${minWidth}px)/${midWidth - minWidth});
-    @media (min-width: ${minWidth}px) {    
+    @media (min-width: ${minWidth}px) {
       font-size: ${minSizeBig}px;
-      font-size: calc(${minSizeBig}px + ${maxSizeBig - minSizeBig} * (100vw - ${midWidth}px)/${maxWidth - midWidth});      
+      font-size: calc(${minSizeBig}px + ${maxSizeBig - minSizeBig} * (100vw - ${midWidth}px)/${maxWidth - midWidth});
     }
   `
 }
 
 export const textSizesStyles = {
-  p2: css`    
+  p2: css`
     margin-bottom: 10vh;
     ${makeTextSize(18,20, 20, 20)};
   `,
