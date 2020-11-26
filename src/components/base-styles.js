@@ -60,9 +60,8 @@ const BaseStyles = createGlobalStyle`
     text-decoration: none;
 
     &:hover {
-      text-decoration: underline;
-      text-decoration-style: wavy;
-      text-decoration-color: blue;
+      text-decoration: line-through;
+      text-decoration-style: inherit;
       text-decoration-thickness: from-font;
     }
   }
