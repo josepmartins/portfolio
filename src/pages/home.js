@@ -1,13 +1,71 @@
 import React from 'react';
 import styled from 'styled-components'
 
-const Content = styled.h1`
+const Content = styled.main`
   font-size: clamp(3rem, 10vw, 5.55555rem);
   line-height: 1.088888888888em;
   letter-spacing: -0.1111111111111111rem;
 
   p:nth-child(2n) {
     padding-left: 1.2em;
+  }
+
+  small {
+    font-size: clamp(1rem, 4vw, 2.55555rem);
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0.6666em;
+  }
+
+  li {
+    display: inline-flex;
+  }
+
+  li a {
+    display: flex;
+    align-items: center;
+    margin-right: 0.6666em;
+    position: relative;
+  }
+
+  li:nth-child(3) a:after{
+    content: 'free';
+    position: absolute;
+    right: 0;
+    transform: translateX(100%);
+    top: 0;
+    font-size: 0.2em;
+    border: 1px solid currentColor;
+    padding: 0.2em 0.4em;
+    line-height: 1;
+    border-radius: 50px;
+    letter-spacing: initial;
+  }
+
+  li:nth-child(4) a:after{
+    content: 'not free lol';
+    position: absolute;
+    right: 0;
+    transform: translateX(100%);
+    top: 0;
+    font-size: 0.2em;
+    border: 1px solid currentColor;
+    padding: 0.2em 0.4em;
+    line-height: 1;
+    border-radius: 50px;
+    letter-spacing: initial;
+  }
+
+  li img {
+    border-radius: 50%;
+    margin-right: 0.2em;
+    display: block;
+    width: 0.82em;
+    height: 0.82em;
   }
 `
 const Wrapper = styled.div`
@@ -74,9 +132,37 @@ class Home extends React.Component {
     return (
       <Wrapper>
         <Content>
-          <p>I'm Josep Martins, a digital product designer and <a target='_blank' rel="noopener noreferrer" href='https://www.instagram.com/josepmartins/'>photograhper</a> currently living in <span>{this.state.icon}</span> Barcelona. </p>
+          <p>I'm Josep Martins, a digital product designer and photograhper currently living in <span>{this.state.icon}</span> Barcelona. </p>
           <p>I build design systems at <a target='_blank' rel="noopener noreferrer" href='https://newrelic.com/'>New Relic</a>. Previously at <a target='_blank' rel="noopener noreferrer" href='https://typeform.com/'>Typeform</a> and <a target='_blank' rel="noopener noreferrer" href='https://8fit.com/'>8fit</a>.</p>
-          <p><a target='_blank' rel="noopener noreferrer" href='mailto:jsp.mrtns@gmail.com'>Email me</a> if you would like to talk or work together.</p>
+          <p>Find me on <a target='_blank' rel="noopener noreferrer" href='https://www.instagram.com/josepmartins/'>Instagram</a>, <a target='_blank' rel="noopener noreferrer" href='https://twitter.com/josep_martins/'>Twitter</a> or <a target='_blank' rel="noopener noreferrer" href='https://www.linkedin.com/in/josepmartins/'>Linkedin</a>.</p>
+          <br />
+          <small>Projects</small>
+          <ul>
+            <li>
+              <a target='_blank' rel="noopener noreferrer" href='https://boringavatars.com/'>
+                <img src='https://source.unsplash.com/XUlsF9LYeVk/200x200' />
+                Avatars
+              </a>
+            </li>
+            <li>
+              <a target='_blank' rel="noopener noreferrer" href='https://www.enrojecerse.com/'>
+                <img src='https://source.unsplash.com/2zDw14yCYqk/200x200' />
+                Enrojecerse
+              </a>
+            </li>
+            <li>
+              <a target='_blank' rel="noopener noreferrer" href='https://unsplash.com/@josepmartins'>
+                <img src='https://source.unsplash.com/W5V6n2Sr2F0/200x200' />
+                Textures
+              </a>
+            </li>
+            <li>
+              <a target='_blank' rel="noopener noreferrer" href='https://gumroad.com/josepmartins'>
+                <img src='https://source.unsplash.com/l3-erg8nPRU/200x200' />
+                Textures
+              </a>
+            </li>
+          </ul>
         </Content>
       </Wrapper>
     )
